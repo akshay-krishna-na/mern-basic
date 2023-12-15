@@ -1,0 +1,63 @@
+    
+    .reg{
+        background-color: #000;
+    }
+    h2{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .regfields{
+        padding: 20px;
+        
+        background-color: transparent;
+        border-bottom: 1px solid #000;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    
+    }
+    ::placeholder {
+        color: black;
+        opacity: 1; /* Firefox */
+        font-family: 'Courier New', Courier, monospace;
+        }
+    .regfields:focus {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        outline: none;
+        }
+    .buttons{
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        display: flexbox;
+        width: 100%;
+        
+    }
+
+    .btnrst{
+        background-color: #000;
+        color: white;
+        width: 200px;
+        height: 20px;
+        padding: 20px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .btnsub{
+        background-color: rgb(92, 119, 17);
+        color: white;
+        width: 200px;
+        height: 20px;
+        padding: 20px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .regform{
+        margin-top: 10px;
+        margin-right: 520px;
+        text-align: center;
+        padding: 40px;
+        background-color: #04AA6D;
+        border-radius: 5px;
+        
+    }

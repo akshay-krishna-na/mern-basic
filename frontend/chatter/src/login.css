@@ -1,0 +1,63 @@
+
+h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.loginfields{
+    padding: 20px;
+    
+    background-color: transparent;
+    border-bottom: 1px solid #000;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+::placeholder {
+    color: black;
+    opacity: 1; /* Firefox */
+    font-family: 'Courier New', Courier, monospace;
+  }
+.loginfields:focus {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+  }
+.buttons{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  display: flexbox;
+  width: 100%;
+  
+}
+.btnsub .btnrst{
+    width: 50%;
+    
+
+}
+.btnrst{
+    background-color: #000;
+    color: white;
+    width: 200px;
+    height: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.btnsub{
+    background-color: rgb(92, 119, 17);
+    color: white;
+    width: 200px;
+    height: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.loginform{
+    text-align: center;
+    padding: 80px;
+    background-color: #04AA6D;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-right: 500px
+   
+}

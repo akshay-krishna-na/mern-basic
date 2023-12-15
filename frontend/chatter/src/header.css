@@ -1,0 +1,58 @@
+form{
+    float: right;
+    margin-top: -44px;
+    margin-right: 25px;
+}
+
+.navbar input {
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+    margin-right: 10px;
+    border: solid rgb(54, 36, 14) 1px;
+    font-size: 15px;
+}
+.navbar button{
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    font-size: 15px;
+    border: solid rgb(54, 36, 14) 1px;
+    width: 40px;
+}
+#searchbtn:hover{
+    background-color: rgb(173, 179, 98);
+}
+
+
+
+ul{
+    margin-left: -45px;
+}
+li{
+    display: inline;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    padding: 19px 25px;
+    color: black;
+}
+a:hover{
+    background-color: rgb(173, 179, 98);
+    border-bottom: 3px solid rgb(54, 36, 14);
+}
+.navbar{
+    border-bottom: solid rgb(110, 75, 30) 1px;
+    padding: 5px;
+    margin-top: -4px;
+    background-color:rgb(227, 232, 158);
+    width: 100%;
+    top: 0;
+    position :fixed;
+}
+
+
+
